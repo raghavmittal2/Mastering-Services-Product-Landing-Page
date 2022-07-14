@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Product Landing Page</title>
     <meta charset="utf-8"/>
@@ -8,13 +8,13 @@
   </head>
   <body>
     <header id="header">
-      <img id="header-img" src="#" alt="logo" />
+      <img id="header-img" src="https://bpng.subpng.com/dy/948d9274eb250b5375a11441b726680e/L0KzQYm3VMI6N5xsj5H0aYP2gLBuTgNqb59mhJ9sb33zhcXskr1qa5Dzi59CYYbodrF5jb10bZ94hAQ2c3B4frW0VfFmPmE1TtdrMnS8QYm1UMYxQWY6TKc6NUK4QIO5WMMxP2Q3TpD5bne=/kisspng-signal-computer-icons-waveform-sensor-sound-5ae6006eb2d918.0609554515250228307326.png" alt="logo" />
       <nav id="nav-bar">
         <ul>
           <li><a class="nav-link" href="#about">About</a></li>
-          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#faqs">FAQs</a></li>
           <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link" href="#">Contact Us</a></li>
+          <li><a class="nav-link" href="#contact">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -23,30 +23,60 @@
         <div>
           <h3>Sign up to our monthly newsletter to get relevant updates on our products and services.</h3>
           <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <input type="email" placeholder="Enter your e-mail" required/>
-            <button type="submit">Submit</button>
+            <input type="email" placeholder="you@example.com" required/>
+            <input id="submit" type="submit"/>
           </form>
+          <p>Join our ever growing community!</p>
         </div>
       </section>
 
       <section id="about">
         <h1>Get your tracks mastered.</h1>
         <p>We master your tracks to put that final touch before letting the world hear your masterpiece. You gave it your all, now let us do the rest for you.</p>
-        <p>Mastering is an essential step of making music and it can really make or break a track. If done right, your track will stand out from the crowd, it will be louder, better and bigger than life and hit the listner right how the artist intended!</p>
-        <p>Well..yes you can easily slap a limiter on the master bus and call it a day and say that you have mastered the track and your work is done, but it can never match the quality and time that an experienced mastering engineer can provide for the track. Mastering, if done right, can make a day and night difference for your track</p>
-        <P>You can't be dependant on one mastering chain that you saw someone use in a youtube video. It just doesn't work like that. While there are workflows and tricks that can be imitated, every track is different and hence requires to be mastered from the ground up. If something worked for you for one track, it does not mean that it will also work for this one!</p>
+        <p>Mastering is an essential step of making music and it can really make or break a track. If done right, your track will stand out from the crowd, it will be louder, better and bigger than life and hit the listener right how you intended!</p>
+        <h3>Sample Track</h3>
+        <iframe id="video" src="https://www.youtube.com/embed/ccjDoHQI8aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       </section>
-      <section id="features">
+
+      <section id="faqs">
+        <h1>FAQs</h1>
+        <p class="question">Why do I need to get my track mastered from someone else if I can do it on my own?</p>
+        <p class="answer">Well..yes you can easily slap a limiter on the master bus and call it a day and say that you have mastered the track and your work is done, but it can never match the quality and time that an experienced mastering engineer can provide for the track. Mastering, if done right, can make a day and night difference for your track</p>
+        <p class="question">I have seen many tutorials on youtube and copied what they did on the master bus. What's the problem with that?</p>
+        <p class="answer">You can't be dependant on one mastering chain that you saw someone use in a youtube video. It just doesn't work like that. While there are workflows and tricks that can be imitated, every track is different and hence requires to be mastered from the ground up. If something worked for you for one track, it does not mean that it will also work for this one!</p>
+        <p class="question">Can I get my album or EP mastered by different people/ do some tracks myself and send other one's to be mastered by someone else?</p>
+        <p class="answer">Theoretically, yes it can be done but we do not recommend it. The whole project should be mastered in such a way so that while playing back your album, there is no variation of loudness between the tracks. Remember, an excellent master is one which doesn't grabs the listeners attention like something funky has been done to the audio. A multi-track project requires cohesion so we recommend that only one engineer is involved in the mastering process.</p>
+        <p class="question">What's the point of going louder if Spotify is just going to turn the fader down on your track for volume normalization?</p>
+        <p class="answer">Good point, but volume normalization can eaily be turned off from the settings and it is off by default on the Web-Player and TV devices! Moreover, you should never be at the bare minimum recommended loudness. What if down the line they change that number then your track wil be turned down more or worse - limited by Spotify to increase volume in order to match the new loudness level. It's always better to be louder than to be sorry. :)</p>
       </section>
       <section id="pricing">
-        <div class="card-wrapper">
+        <h1>Pricing</h1>
+        <div class="grid-wrapper">
+          <div class="card-wrapper">
+          <h3>Single track</h3>
+          <p>₹2,500</p>
         </div>
         <div class="card-wrapper">
+          <h3>Album/ EP</h3>
+          <p>₹1,000 each track</p>
         </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <p>xyz@gmail.com</p>
       </section>
     </main>
     <footer>
+      <ul id="footer-links">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p>Raghav Music Copyright 2022
+      </p>
     </footer>
   </body>
 <html>
