@@ -30,8 +30,9 @@
   }
   
   #header-img {
-    width: 100px;
+    width: 80px;
     height: 80px;
+    margin-left: 2.2rem;
   }
   
   #nav-bar ul, #footer-links {
@@ -181,6 +182,12 @@
   @media screen and (max-width: 606px) {
     body, footer {
         font-size: 1.8rem;
+    }
+
+    #header-img {
+      width: 60px;
+      height: 60px;
+      margin-left: 1.5rem; 
     }
 
     .card-wrapper {
